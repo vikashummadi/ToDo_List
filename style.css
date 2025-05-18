@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.input{
+  height: 50px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task{
+  padding: 20px;
+  background-color:lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
