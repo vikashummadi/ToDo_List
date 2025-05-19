@@ -3,15 +3,18 @@ let ul = document.querySelector("ul");
 let inp = document.querySelector("input");
 
 btn.addEventListener("click", function() {
+  if(inp.value == ""){
+    return;
+  }
   let item = document.createElement("li");
   item.innerText = inp.value;
   item.style.color = "red";
-
   let delbtn = document.createElement("button");
   delbtn.innerHTML = `<i class="fa-solid fa-x"></i>`;
   delbtn.style.borderRadius= "7px";
   delbtn.style.border = "none";
   delbtn.style.textDecoration = "none";
+  delbtn.style.backgroundColor = "whitesmoke";
   delbtn.classList.add("delete");
   let checkbox = document.createElement("input");
   checkbox.setAttribute("type","checkbox");

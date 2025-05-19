@@ -1,28 +1,64 @@
+*{
+  margin: 0%;
+  padding: 0%
+}
 body{
-  margin: 0;
-  padding: 0;
   text-align: center;
+  background-color: #4E71FF;
+  font-family: "Shantell Sans", cursive;
 }
 ul{
   list-style-type: none;
 }
+.heading{
+  padding: 20px;
+  color: whitesmoke;
+  font-family: "Lacquer", system-ui;
+}
 .input{
   height: 50px;
   width: 100%;
-  background-color: aqua;
+  background-color:#8DD8FF;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .task{
-  padding: 20px;
-  background-color:lightcoral;
+  padding: px;
+  background-color:#FBFBFB;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 10px 10xp 5px black;
+  margin-top: 25px;
+  margin-left: 350px;
+  
 }
 li{
   width: 100px;
   display: flex;
   justify-content: space-between;
+}
+.input input{
+  width: 30%;
+  height: 30px;
+  border-radius:15px;
+  border: none;
+  padding-left: 10px;
+  margin-right: 25px;
+  font-family: "Shantell Sans", cursive;
+}
+.input button{
+  height: 30px;
+  border-radius: 15px;
+  width: 100px;
+  background-color: #5409DA;
+  color: whitesmoke;
+  border: none;
+  font-family: "Shantell Sans", cursive;
+}
+.input button:active{
+  background-color: rgba(84, 9, 218,0.7);
 }
